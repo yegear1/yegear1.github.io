@@ -46,8 +46,7 @@ body {
     z-index: 2;
     width: 100px;
     height: 100px;
-    background-image: url(src\assets\images\Logo.svg);
-
+    background-image: url(src/assets/images/Logo.svg);
 }
 
 .logo{
