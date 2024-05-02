@@ -53,6 +53,11 @@ body {
     flex-direction: row;
     position: fixed;
 }
+@media (min-width: 1024px) {
+    .TopBar{
+        height: 130px;
+    }
+}
 
 .logo{
     margin-left: 3%;
@@ -61,15 +66,24 @@ body {
     height: 60px;
     z-index: 2;
 
-    position: fixed;
+    position: absolute;
 }
+@media (min-width: 1024px) {
+    .logo {
+        top: 53%;
+        width: 130px; 
+        height: 49.86px;
+    }
+}
+
 
 .InputSearch{
     transform: translate(-50%, -50%);  
     left: 50%;
-    width: 100px;
+    width: 130px;
     height: 20px;
-    bottom: 2%;
+    max-width: 190px;
+    bottom: 1%;
     font-weight: 500;
     color: #fff;
     background-color: rgb(28,28,30);
@@ -78,7 +92,6 @@ body {
     border: none;
     outline: none;
     padding: 0.4vw;
-    max-width: 190px;
     transition: 1s;
     letter-spacing: 1px;
 
@@ -92,14 +105,21 @@ body {
 }
 
 .ProfileImage{
+    /* transform: translateX(-50%); */
     top: 59%;
     margin-left: 83%;
-    height: auto;
-    width: auto;
     min-height: 40px;
     min-width: 40px;
+    /* transition: 2s; */
 
     position: fixed;
+}
+@media (min-width: 1024px) {
+    .ProfileImage {
+        top: 52%;
+        width: 70px; /* Ajuste o tamanho do ícone para telas maiores */
+        height: 70px;
+    }
 }
 
 .capa{
@@ -107,8 +127,6 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-    max-width: 90%;
-    min-width: 50%;
     min-height: auto;
 
 
@@ -118,15 +136,22 @@ body {
  
 
 .MangaTitle{
-    transform: translate(-50%, -50%);  
+    /* transform: translate(-50%, -50%);   */
+    transform: translateX(-50%);
     left: 50%;
-    top: 250px;
+    top: 71%;
     color: rgba(255,255,255,0.75);
-    font-size: 12px;
+    font-size: 2vw;
     letter-spacing: 0.4vw;
     border: 1px;
     background-color: black;
     border-radius: 5px;
 
-    position: fixed;
+    position: absolute;
+}
+@media (max-width: 768px) {
+    .MangaTitle {
+        font-size: 4vw; /* Reduza o tamanho da fonte em telas menores */
+        top: 10%; /* Ajuste a posição vertical para telas menores */
+    }
 }
