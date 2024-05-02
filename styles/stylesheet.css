@@ -20,13 +20,14 @@
 
 
 body {
-    font-family: "PoppinsRegular", sans-serif;
     z-index: 0;
     line-height: 1.6;
-    text-rendering: optimizeLegibility;
     background-color: #14141A;
+    
+    font-family: "PoppinsRegular", sans-serif;
+    margin: auto;
+    text-rendering: optimizeLegibility;
     /* background-color: #5f5fb9; */
-
 }
 
 .header{
@@ -39,6 +40,8 @@ body {
     left: 50%; 
     top: 0%;
     width: 100%;
+    max-width: 800px;
+    min-width: 320px;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.5);
     border-bottom-left-radius: 40px;
