@@ -78,3 +78,10 @@ body {
 .InputSearch:focus {
   box-shadow: 0 0 0 .15vw skyblue;
 }
+.capa{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+}
