@@ -94,6 +94,11 @@ body {
 .ProfileImage{
     top: 59%;
     margin-left: 83%;
+    height: auto;
+    width: auto;
+    min-height: 40px;
+    min-width: 40px;
+
     position: fixed;
 }
 
@@ -102,7 +107,13 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-    position: fixed;
+    max-width: 90%;
+    min-width: 50%;
+    min-height: auto;
+
+
+    margin: auto;
+    position:fixed;
 }
  
 
