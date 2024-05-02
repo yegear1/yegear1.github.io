@@ -23,6 +23,8 @@ body {
     font-family: "PoppinsRegular", sans-serif;
     z-index: 0;
     background-color: #14141A;
+    /* background-color: #5f5fb9; */
+
 }
 
 .header{
@@ -60,19 +62,19 @@ body {
 .InputSearch{
     transform: translate(-50%, -50%);  
     left: 50%;
-    width: 110px;
+    width: 100px;
     height: 20px;
     bottom: 2%;
     font-weight: 500;
     color: #fff;
     background-color: rgb(28,28,30);
-    box-shadow: 0 0 .4vw rgba(0,0,0,0.5), 0 0 0 .15vw transparent;
-    border-radius: 0.4vw;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5), 0 0 0 .15vw transparent;
+    border-radius: 5px;
     border: none;
     outline: none;
     padding: 0.4vw;
     max-width: 190px;
-    transition: .4s;
+    transition: 1s;
     letter-spacing: 1px;
 
     background-color: rgba(217, 217, 217, 0.75);
@@ -84,8 +86,13 @@ body {
   box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
 }
 
-.InputSearch:focus {
-  box-shadow: 0 0 0 .15vw skyblue;
+.ProfileImage{
+    top: 59%;
+    margin-left: 83%;
+    
+    position: fixed;
+
+
 }
 
 .capa{
@@ -96,13 +103,17 @@ body {
     position: fixed;
 }
  
+
 .MangaTitle{
     transform: translate(-50%, -50%);  
     left: 50%;
     top: 18%;
     color: rgba(255,255,255,0.75);
     font-size: 12px;
-    letter-spacing: 1cap;
+    letter-spacing: 0.4vw;
+    border: 1px;
+    background-color: black;
+    border-radius: 5px;
 
     position: fixed;
 }
