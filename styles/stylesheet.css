@@ -20,11 +20,14 @@
 
 
 body {
-    font-family: "PoppinsRegular", sans-serif;
     z-index: 0;
+    line-height: 1.6;
     background-color: #14141A;
+    
+    font-family: "PoppinsRegular", sans-serif;
+    margin: auto;
+    text-rendering: optimizeLegibility;
     /* background-color: #5f5fb9; */
-
 }
 
 .header{
@@ -37,6 +40,8 @@ body {
     left: 50%; 
     top: 0%;
     width: 100%;
+    max-width: 800px;
+    min-width: 320px;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.5);
     border-bottom-left-radius: 40px;
@@ -104,7 +109,7 @@ body {
 .MangaTitle{
     transform: translate(-50%, -50%);  
     left: 50%;
-    top: 18%;
+    top: 250px;
     color: rgba(255,255,255,0.75);
     font-size: 12px;
     letter-spacing: 0.4vw;
@@ -112,12 +117,5 @@ body {
     background-color: black;
     border-radius: 5px;
 
-    position: fixed;
-}
-.capa{
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
     position: fixed;
 }
