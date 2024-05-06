@@ -156,19 +156,9 @@ body {
     }
 }
 
-.Container{
-    margin-top: 20.9vw;
-    width: 100%;
-    
-    justify-content: center;
-    display: flex;
-}
 
 .MangaHome{
-    margin-top: 5vw;
-
-    display: flex;
-    flex-direction: column;
+    margin-top: 50%;
 }
 
 .Covers{
