@@ -122,23 +122,16 @@ body {
     }
 }
 
-
-.Banner{
+.banner{
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    height: auto;
+    min-height: auto;
+
 
     margin: auto;
-    position: absolute;
-}
-@media (max-width: 768px) {
-    .banner {
-        height: 100%;
-        margin-top: 10vw;
-        transform: scale(1.3);
-    }
+    position:absolute;
 }
  
 
@@ -159,11 +152,11 @@ body {
 @media (max-width: 768px) {
     .MangaTitle {
         font-size: 4vw;
-        top: 24vw;
+        top: 10%; 
     }
 }
 
-.ContainerManga{
+.Container{
     margin-top: 20.9vw;
     width: 100%;
     
@@ -172,32 +165,21 @@ body {
 }
 
 .MangaHome{
-    background-color: rgba(255,255,255,0.75);
     margin-top: 5vw;
-    margin-right: 85vw;
-    gap: 0.521vw;
-    width: 35vw;
-    height: 1000px;
-
 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     flex-direction: column;
 }
 
 .Covers{
+    left: 10px;
     width: 150px;
     height: 208.64px;
     z-index: 1;
     flex-grow: 1;
-    padding: 20px;
-   
+    padding: 5px;
+
+    writing-mode: vertical-lr;
+    text-orientation: upright;
     position: relative;
-}
-@media (max-width: 768px) {
-    .Covers {
-        width: 110px;
-        height: 153px;
-    }
 }
