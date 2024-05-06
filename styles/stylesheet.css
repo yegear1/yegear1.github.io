@@ -25,7 +25,6 @@ body {
     background-color: #14141A;
     
     font-family: "PoppinsRegular", sans-serif;
-    margin: auto;
     text-rendering: optimizeLegibility;
     /* background-color: #5f5fb9; */
 }
@@ -133,28 +132,7 @@ body {
     margin: auto;
     position:absolute;
 }
- 
 
-.MangaTitle{
-    transform: translateX(-50%);
-    left: 50%;
-    top: 21.2vw;
-    margin: auto;
-    color: rgba(255,255,255,0.75);
-    font-size: 2vw;
-    letter-spacing: 0.4vw;
-    border: 1px;
-    background-color: black;
-    border-radius: 5px;
-
-    position: absolute;
-}
-@media (max-width: 768px) {
-    .MangaTitle {
-        font-size: 4vw;
-        top: 10%; 
-    }
-}
 
 
 .MangaHome{
@@ -165,11 +143,18 @@ body {
     left: 10px;
     width: 150px;
     height: 208.64px;
-    z-index: 1;
-    flex-grow: 1;
-    padding: 5px;
-
-    writing-mode: vertical-lr;
-    text-orientation: upright;
+    padding-bottom: 1vw;
     position: relative;
+}
+
+.CardOverlay{
+    z-index: 2;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    bottom: 0;
+}
+
+.CardTitle{
+    font-size: 2em;
 }
