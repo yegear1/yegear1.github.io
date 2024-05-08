@@ -17,6 +17,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Chivo';
+    src: url('../fonts/Chivo-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
 
 
 body {
@@ -145,7 +153,13 @@ body {
 
 }
 
+.card{
+    transition: all 0.3s;
+}
 
+.card:hover{
+    transform: scale(1.15);
+}
 
 .footer{
     background-color: #0909144a;
@@ -162,3 +176,4 @@ body {
 .TextFooter{
     margin: 0;
 }
+
