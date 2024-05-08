@@ -145,15 +145,15 @@ body {
     position:absolute;
 }
 
-
-
 .MangaHome{
     margin-top: 50%;
     justify-content: center;
 }
 
-.Covers{
-    
+.row{
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 100%;
 }
 
 .card-img-overlay{
