@@ -90,7 +90,7 @@ body {
     width: 130px;
     height: 30px;
     max-width: 190px;
-    margin-top: 9%;
+    margin-top: 12%;
     font-weight: 500;
     color: #fff;
     background-color: rgb(28,28,30);
@@ -108,6 +108,13 @@ body {
 .InputSearch:hover {
   box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
 }
+@media (max-width: 726px) {
+    .InputSearch {
+        margin-top: 18%;
+    }
+}
+
+
 
 .ProfileImage{
     top: 59%;
@@ -115,12 +122,13 @@ body {
     min-height: 40px;
     min-width: 40px;
 
+    outline: none;
     position: fixed;
 }
 @media (min-width: 1024px) {
     .ProfileImage {
         top: 52%;
-        width: 70px; /* Ajuste o tamanho do ícone para telas maiores */
+        width: 70px;
         height: 70px;
     }
 }
