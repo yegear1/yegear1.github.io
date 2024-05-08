@@ -136,29 +136,15 @@ body {
     justify-content: center;
 }
 
-.card-img{
-  min-width: 150px;  
-}
-
 .Covers{
-    left: 10px;
-    width: 150px;
-    height: 208.64px;
-    padding-bottom: 1vw;
-    position: relative;
+    
 }
 
 .CardOverlay{
-    z-index: 2;
-    height: 10%;
     background-color: rgba(0, 0, 0, 0.5);
 
-    bottom: 0;
 }
 
-.CardTitle{
-    font-size: 2em;
-}
 
 
 .footer{
