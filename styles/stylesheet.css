@@ -159,3 +159,20 @@ body {
 .CardTitle{
     font-size: 2em;
 }
+
+
+.footer{
+    background-color: #0909144a;
+    color: #d3dbe1e8;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    border-radius: 5px;
+
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+.TextFooter{
+    margin: 0;
+}
