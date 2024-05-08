@@ -148,17 +148,21 @@ body {
     
 }
 
-.CardOverlay{
+.card-img-overlay{
     background-color: rgba(0, 0, 0, 0.5);
-
 }
 
 .card{
     transition: all 0.3s;
 }
-
 .card:hover{
     transform: scale(1.15);
+}
+
+.card-title{
+    padding: auto;
+    margin-top: -5%;
+    margin-bottom: 0.5%;
 }
 
 .footer{
