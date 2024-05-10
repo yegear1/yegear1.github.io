@@ -29,7 +29,7 @@
 
 body {
     z-index: 0;
-    line-height: 1.6;
+    line-height: 1.5;
     background-color: #14141A;
     
     font-family: "PoppinsRegular", sans-serif;
@@ -58,7 +58,7 @@ body {
     z-index: 1;
     
     align-items: center;
-    justify-content: cente;
+    justify-content: center;
     flex-direction: row;
     position: fixed;
 }
@@ -84,7 +84,6 @@ body {
         height: 42.19px;
     }
 }
-
 
 .InputSearch{
     transform: translate(-50%, -50%);  
@@ -140,9 +139,8 @@ body {
     left: 0;
     right: 0;
     width: 100%;
+
     min-height: auto;
-
-
     margin: auto;
     position:absolute;
 }
