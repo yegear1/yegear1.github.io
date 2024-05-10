@@ -35,6 +35,8 @@ body {
     font-family: "PoppinsRegular", sans-serif;
     text-rendering: optimizeLegibility;
     /* background-color: #5f5fb9; */
+    width: 100%;
+    max-width: 100%;
 }
 
 .header{
@@ -151,8 +153,6 @@ body {
 }
 
 .row{
-    margin-left: 50%;
-    margin-right: 50%;
     width: 100%;
 }
 
