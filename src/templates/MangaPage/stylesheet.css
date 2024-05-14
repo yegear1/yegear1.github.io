@@ -24,26 +24,30 @@
     font-style: normal;
 }
 
-
-
-
 body {
     z-index: 0;
     line-height: 1.5;
     background-color: #14141A;
-
+    overflow: scroll;
     
-    display: flex;
-    flex-direction: column;
     font-family: "PoppinsRegular", sans-serif;
     text-rendering: optimizeLegibility;
     /* background-color: #5f5fb9; */
-    
+}
+@media (min-width: 1024px) {
+    body{
+        
+    }
 }
 
-.header{
+.Page{
     width: 100%;
-    height: auto;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header{
+    
 }
 
 .TopBar {
@@ -99,25 +103,23 @@ body {
     background-color: rgb(28,28,30);
     box-shadow: 0 0 5px rgba(0,0,0,0.5), 0 0 0 .15vw transparent;
     border-radius: 5px;
+    letter-spacing: 1px;
+    
+    background-color: rgba(217, 217, 217, 0.75);
+    
     border: none;
     outline: none;
-    letter-spacing: 1px;
-
-    background-color: rgba(217, 217, 217, 0.75);
-
     text-align: center;
     position: fixed;
 }
 .InputSearch:hover {
-  box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
+    box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
 }
 @media (max-width: 726px) {
     .InputSearch {
         margin-top: 18%;
     }
 }
-
-
 
 .ProfileImage{
     top: 59%;
@@ -141,39 +143,41 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-
-    min-height: auto;
+    height: 25vw;
     margin: auto;
-    position:absolute;
+    position: absolute;
+    
 }
 
-.MangaHome{
+
+
+.MangaBox{
+    border-radius: 3px;
+    border: solid 5px #14141a;
+    border-color: #14141A;
+    transform: translate(-50%, -50%);  
+    left: 50%;
+    top: 25vw;
+
+    position: absolute
+}
+
+.Covers{
+    border-radius: 10px;
+    height: 20vw;
+}
+@media (max-width: 726px) {
+    .Covers {
+        height: 30vw;
+
+    }
+}
+
+.MangaPage{
     margin-top: 50%;
-    justify-content: center;
+    height: 500px;
 }
 
-.row{
-    width: 100%;
-}
-
-.card-img-overlay{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.card{
-    transition: all 0.3s;
-  
-}
-.card:hover{
-    z-index: 2;
-    transform: scale(1.15);
-}
-
-.card-title{
-    padding: auto;
-    margin-top: -5%;
-    margin-bottom: 0.5%;
-}
 
 .footer{
     background-color: #0909144a;
@@ -188,6 +192,4 @@ body {
     display: flex;
 }
 .TextFooter{
-    margin: 0;
 }
-
