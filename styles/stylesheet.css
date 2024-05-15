@@ -163,6 +163,8 @@ body {
 
 .card{
     transition: all 0.3s;
+    text-overflow: ellipsis;
+
 }
 .card:hover{
     z-index: 2;
@@ -173,6 +175,9 @@ body {
     padding: auto;
     margin-top: -5%;
     margin-bottom: 0.5%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
 }
 
 .footer{
