@@ -163,8 +163,6 @@ body {
 
 .card{
     transition: all 0.3s;
-    text-overflow: ellipsis;
-
 }
 .card:hover{
     z-index: 2;

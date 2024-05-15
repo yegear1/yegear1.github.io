@@ -28,26 +28,16 @@ body {
     z-index: 0;
     line-height: 1.5;
     background-color: #14141A;
-    overflow: scroll;
     
     font-family: "PoppinsRegular", sans-serif;
     text-rendering: optimizeLegibility;
     /* background-color: #5f5fb9; */
 }
-@media (min-width: 1024px) {
-    body{
-        
-    }
-}
+
 
 .Page{
     width: 100%;
     min-height: 100vh;
-    margin: 0;
-}
-
-header{
-    
 }
 
 .TopBar {
@@ -140,31 +130,36 @@ header{
 
 .banner{
     top: 0;
-    left: 0;
     right: 0;
     width: 100%;
     height: 25vw;
+    max-height: 30vw;
+
+    overflow: hidden;
     margin: auto;
     position: absolute;
-    
 }
 
-
-
 .MangaBox{
-    border-radius: 3px;
+    border-radius: 5px;
     border: solid 5px #14141a;
     border-color: #14141A;
     transform: translate(-50%, -50%);  
     left: 50%;
     top: 25vw;
+    background-color: #14141A;
 
     position: absolute
 }
 
+
 .Covers{
-    border-radius: 10px;
-    height: 20vw;
+    border-radius: 5px;
+    height: 18vw;
+}
+.Covers:hover{
+    transition: all 0.3s;
+    transform: scale(1.02);
 }
 @media (max-width: 726px) {
     .Covers {
@@ -173,11 +168,54 @@ header{
     }
 }
 
-.MangaPage{
-    margin-top: 50%;
-    height: 500px;
+.MangaTitle{
+    transform: translate(-50%, -50%);  
+    left: 50%;
+    margin-top: 52%;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+
+    text-align: center;
+    position: relative;
 }
 
+.MangaPage{
+    width: 100%;
+    height: 1000px;
+}
+
+.Info{
+    transform: translate(-50%, -50%);  
+    left: 51%;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 10px;
+    margin-top: 8%;
+    
+    text-align: center;
+    position: absolute;
+}
+
+.Text{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.icons{
+    color: rgba(255, 255, 255, 0.75);
+    height: 40px;
+    margin-top: 4%;
+    transition: transform 0.3s, fill 0.3s;
+}
+
+.heart:hover {
+    transform: scale(1.2); /* Aumenta o tamanho em 20% */
+}
+
+.bookmark:hover {
+    transform: scale(1.2); /* Aumenta o tamanho em 20% */
+}
 
 .footer{
     background-color: #0909144a;
@@ -190,6 +228,4 @@ header{
     justify-content: center;
     position: relative;
     display: flex;
-}
-.TextFooter{
 }
