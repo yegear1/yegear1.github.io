@@ -57,7 +57,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    z-index: 1;
+    z-index: 3;
     
     align-items: center;
     justify-content: center;
@@ -142,6 +142,7 @@ body {
     right: 0;
     width: 100%;
 
+    overflow: hidden;
     min-height: auto;
     margin: auto;
     position:absolute;
@@ -162,7 +163,6 @@ body {
 
 .card{
     transition: all 0.3s;
-  
 }
 .card:hover{
     z-index: 2;
