@@ -156,6 +156,11 @@ body {
     position:absolute;
 }
 
+.CarouselText{
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .MangaHome{
     margin-top: 50%;
     justify-content: center;
