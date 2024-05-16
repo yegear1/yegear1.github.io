@@ -1,0 +1,3 @@
+const div = querySelector(".SynopsisContentBox");
+const text = "Aos dezessete anos de idade, Miyamoto Musashi - ainda conhecido por seu nome de infância, Shinmen Takezo - era um jovem bruto selvagem iniciando o caminho da espada. No rescaldo da épica Batalha de Sekigahara, Takezo se vê como um sobrevivente fugitivo do lado perdedor da guerra. A natureza cruel de Takezo fez dele um pária, mesmo em sua própria aldeia, e ele é caçado como um animal. Nesta encruzilhada crucial na vida de Takezo, um monge excêntrico e um amigo de infância são os únicos que podem ajudá-lo a encontrar seu caminho.";
+
