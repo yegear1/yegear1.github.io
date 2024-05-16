@@ -215,11 +215,13 @@ body {
 
 .Text{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: 1px;
 }
 @media (max-width: 726px) {
     .Text {
-        font-size: 12px;
+        font-size: 2.9vw;
     }
 }
 
@@ -249,33 +251,84 @@ body {
 
     position: relative;
 }
+@media (max-width: 726px) {
+    .Chapters {
+        margin-top: 50vw;
+    }
+}
+
 
 .ChapterTop{
     display: flex;
     flex-direction: column;
 }
 
-.Text{
-    color: rgba(255, 255, 255, 0.75
-);
-    letter-spacing: 1px;
-    
-
-}
 
 .ChapterBox{
     background-color: rgba(35,35,35,.5);
-    height: 70px;
     max-width: 300px;
     color: rgba(255, 255, 255, 0.75);
-    border-radius: 3px;
+    border-radius: 5px;
     letter-spacing: 1px;
-    
+
     margin: auto;
     position: relative;
     text-align: center;
     align-items: center;
+    transition: all 2s;
 }
+.ChapterBox:hover{
+    letter-spacing: 3px;
+    max-width: 320px;
+}
+@media (max-width: 726px) {
+    .ChapterBox {
+        width: 300px;
+        height: 70px;
+        
+    }
+}
+
+.ChapterText{
+    font-size: 22px;
+    position: relative;
+    white-space: nowrap;
+}
+@media (max-width: 726px) {
+    .ChapterText {
+        font-size: 4vw;
+    }
+}
+
+.CardText{
+    font-size: 16px;
+    position: relative;
+    font-weight: 500;
+    white-space: nowrap;
+
+}
+@media (max-width: 726px) {
+    .CardText {
+        font-size: 2.5vw;
+    }
+}
+
+.CardNew{
+    background-color: rgba(220, 20, 60, 0.61);
+    border-radius: 0.5rem;
+
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes pulse {
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 .footer{
     background-color: #0909144a;
