@@ -221,7 +221,7 @@ body {
 }
 @media (max-width: 726px) {
     .Text {
-        font-size: 2.9vw;
+        font-size: 3vw;
     }
 }
 
@@ -264,7 +264,7 @@ body {
 }
 @media (max-width: 726px) {
     .SynopsisContent {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
