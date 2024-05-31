@@ -1,0 +1,20 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.TopBar{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.InputSearch{
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(28,28,30);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5), 0 0 0 .15vw transparent;
+    letter-spacing: 1px;
+
+    background-color: rgba(217, 217, 217, 0.75);
+
+}
